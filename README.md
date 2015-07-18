@@ -1,7 +1,7 @@
 # Grid-vision
 This css file will help to create complicated webpage layouts with the concept of grids. The css file contains the layout styling of the classes : line , unit, size-1-1,  size-1-2,  size-1-3, size-2-3, size-1-4, size-3-4, size-1-5, size-2-5, size-3-5 and size-4-5.
 
-WHat the classes mean:
+<strong>What the classes mean:</strong>
 
 1. "line"- this class refers to a horizontal block houses "unit" inside it.
 
@@ -11,10 +11,15 @@ WHat the classes mean:
 
 
 these classes can be uses to create complicated layouts.
-for example, <div class="line size-1-1"></div> creates a div element that spans 100% of the parent width and 
+for example,
+````css
+<div class="line size-1-1"></div> 
+````
+creates a div element that spans 100% of the parent width and 
+```css
 <div class="line size-1-1>
   <div class="unit size-1-2">...</div>
   <div class="unit size-1-2">...</div>
 </div>
-
+```
 creates two units with half the width of the line. Similary other size parameters can also be assigned.
